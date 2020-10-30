@@ -146,4 +146,9 @@ vault operator unseal pQDEIaSVeTq3KHkiX7hmftZP9s7fdb7/Kui8qHxx3XG5
 vault operator unseal Y1I5AVW9TdGON961JWjthVoNO/cuSNm2zg3XEzVb5D8w
 
 echo step 35
+export VAULT_TOKEN=s.uB8U4KZHYrcF15WqjyqiRA24
+echo "export VAULT_TOKEN=s.uB8U4KZHYrcF15WqjyqiRA24" >> ~/.bashrc
+
+
+
 
