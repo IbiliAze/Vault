@@ -44,6 +44,8 @@ vault token create
 
 vault token revoke s.vH60Sn7k3a4rv0AAnuQyKYBX
 
+vault token create -policy="testpolicy"
+
 
 
 [ Username Password ]
@@ -73,3 +75,11 @@ vault write auth/github/map/teams/development value=dev-policy
 vault write auth/github/map/users/IbiliAzeOrg value=user-policy
 
 
+
+[ Policy ]
+
+vault policy write testpolicy TestPolicy.hcl #create policy 
+
+vault token create -policy="testpolicy"
+
+ 
